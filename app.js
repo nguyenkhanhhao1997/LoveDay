@@ -18,8 +18,4 @@ document.addEventListener('DOMContentLoaded', function(){
       var timer = setInterval(function(){olock()}, 1000);
       document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
 
-      document.getElementsByTagName("body")[0].insertAdjacentHTML(
-            "beforeend",
-      );
-
 }, false);
