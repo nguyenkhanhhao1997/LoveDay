@@ -1,5 +1,5 @@
 const yourDate = new Date("2018-09-29T00:10:00"),
-music = ['cauvongtinhyeu', 'noinaycoanh', 'anhnangcuaanh'];
+music = ['cauvongtinhyeu', 'noinaycoanh', 'anhnangcuaanh', 'demngayxaem', 'noinaycoanh', 'votuyetvoinhat'];
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
